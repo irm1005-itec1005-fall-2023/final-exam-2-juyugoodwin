@@ -26,7 +26,12 @@
 </head>
 
 <body>
-
+  <header>
+    <div class="header-flex-box">
+      <img src="images/logo/logo-light.svg" alt="Amy's Web Development Agency Logo">
+      <p>Contact us</p>
+    </div>
+  </header>
   <!--
 
     FINAL EXAM CONTENT
@@ -35,91 +40,97 @@
     THAT YOU CAN FOCUS ON THE HTML STRUCTURE AND SEMANTICS.
 
     ---------------------------------------------
-
-    # HEADER SECTION
-
-    Site Header (hidden text - not visible on screen)
-    Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-light.svg)
-    Contact Us
-
-    # MAIN SECTION
-
-    ## HERO SECTION
-
-    Amy's Web Development Agency (hidden text - not visible on screen)
-    Web Development Solutions Made Easy
-    Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.
-
-
-    ## SKILLS SECTION
-
-    My Skills (hidden text - not visible on screen)
-    Web Development
-    UI/UX
-    CSS
-    JavaScript
-    HTML
-    GitHub
-
-    ## ABOUT ME SECTION
-
-    About me (hidden text - not visible on screen)
-    Picture of Amy's in business atire with a pink background (<- image alt text <- ./images/about/about.jpg)
-
-    Hey, I'm Amy. Are you ready to level up your web project?
-
-    I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
-
-    Contact me
-
-    ## MY WORK SECTION
-
-    My Work
-
-    Screenshot of Tutorial Exercise 03 (<- image alt text <- ./images/work/work-1.png)
-    Tutorial Exercise 03
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 05 (<- image alt text <- ./images/work/work-2.png)
-    Tutorial Exercise 05
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 07 (<- image alt text <- ./images/work/work-3.png)
-    Tutorial Exercise 07
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 09 (<- image alt text <- ./images/work/work-4.png)
-    Tutorial Exercise 09
-    HTML
-    CSS
-    JavaScript
-
-    Book a call with me
-
-    ## CONTACT ME SECTION
-
-    Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!"
-
-    Contact Me
-
-    ## FOOTER SECTION
-
-    Site Footer (hidden text - not visible on screen)
-
-    Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-dark.svg)
-    © 2023 Amy's Web Development Agency
-
+    
   -->
 
   <main>
     <div class="page-container">
-      <h1>Complete Your Final Exam Here</h1>
+     <h1>Web Development Solutions Made Easy</h1>
+      <p class="crafting">Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</p>
+      
+        <ul class="grid-container">
+          <li class="item-1">Web Development</li>
+          <li class="item-2">UI/UX</li>
+          <li class="item-3">CSS</li>
+          <li class="item-4">JavaScript</li>
+          <li class="item-5">HTML</li>
+          <li class="item-6">GitHub</li>
+        </ul>
+
+      <section class="about-me">
+        <img src="images/about/about.jpg" alt="Picture of Amy's in business atire with a pink background">
+        <div class="about-me-text">
+          <h2> Hey, I'm Amy. Are you ready to level up your web project?</h2>
+          <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+           
+            <div class="contact-me">
+              <p>Contact me</p></div>
+            </div>
+      </section>
+
+      <section class="work">
+        <h2>My Work</h2>
+
+        <div class="work-grid-container">
+          <div class="exercise">
+            <img src="images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03">
+            <h3>Tutorial Exercise 03</h3>
+              
+            <div class="elements">
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+          </div>
+
+          <div class="exercise">
+            <img src="images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05">
+            <h3>Tutorial Exercise 05</h3>
+              
+            <div class="elements">
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+          </div>
+
+          <div class="exercise">
+            <img src="images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07"/>
+            <h3>Tutorial Exercise 07</h3>
+              
+              <div class="elements">
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+          </div>
+
+          <div class="exercise">
+            <img src="images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09"/>
+            <h3>Tutorial Exercise 09</h3>
+              
+              <div class="elements">
+                <p>HTML</p>
+                <p>CSS</p>
+                <P>JavaScript</P>
+              </div>
+          </div>
+        </div>  
+      </section>
+      
+      <section class="contact">
+        <h2>Book a call with me</h2>
+        <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!"</p>
+          
+         <div class="call-contact">
+            <p>Contact Me</p>
+          </div>
+      </section>
     </div>
   </main>
 
-
+  <footer>
+    <div class="footer-flex-box">
+      <img src="images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo">
+      <p>© 2023 Amy's Web Development Agency</p>
+   </div>
+  </footer>
 </body>
 </html>
