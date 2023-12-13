@@ -314,7 +314,14 @@
     color: pink;
     cursor: pointer;
   }
+
+  header p:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+   }
  }
+ 
  /* Mobile Media Screen */
 
  @media screen and (max-width: 800px) {
@@ -559,6 +566,12 @@
    }
   
    .call-contact:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+   }
+
+   header p:hover {
     background-color: white;
     color: black;
     cursor: pointer;
